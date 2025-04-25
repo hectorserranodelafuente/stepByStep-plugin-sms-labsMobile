@@ -1,10 +1,10 @@
 const UtilsAuth = require('../../../modules/api/utilsAuth.js')
 const Auth = require('../../../modules/api/auth.js')
 
-const LabsMobileClient = require("../../node_modules/labsmobile-sms/src/LabsMobileClient.js");
-const LabsMobileModelTextMessage = require("../../node_modules/labsmobile-sms/src/LabsMobileModelTextMessage.js");
-const ParametersException = require("../../node_modules/labsmobile-sms/src/Exception/ParametersException.js");
-const RestException = require("../../node_modules/labsmobile-sms/src/Exception/RestException.js");
+const LabsMobileClient = require("../../../node_modules/labsmobile-sms/src/LabsMobileClient.js");
+const LabsMobileModelTextMessage = require("../../../node_modules/labsmobile-sms/src/LabsMobileModelTextMessage.js");
+const ParametersException = require("../../../node_modules/labsmobile-sms/src/Exception/ParametersException.js");
+const RestException = require("../../../node_modules/labsmobile-sms/src/Exception/RestException.js");
 
 class smsLabsMobile extends UtilsAuth {
 
